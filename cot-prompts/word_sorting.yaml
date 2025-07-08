@@ -1,0 +1,28 @@
+- input: 以下の単語をアルファベット順に並べ替えなさい：リスト：oven、costume、counterpart
+  target: '順を追って考える。最初の文字：「oven」は「o」（15番目）、「costume」は「c」（3番目）、「counterpart」は「c」（3番目）です。この時点での順序は：（3）［costume
+    ?　counterpart］ < （15）「oven」となります。では、この部分［costume ?　counterpart］を2番目の文字で並べ替えてみましょう。
+
+    2番目の文字：「costume」は「o」（15番目）、「counterpart」は「o」（15番目）です。この時点での順序は：（15）［costume ?　counterpart］となります。次に、この部分［costume
+    ?　counterpart］を3番目の文字で並べ替えます。
+
+    3番目の文字：「costume」は「s」（19番目）、「counterpart」は「u」（21番目）です。この時点での順序は：（19）「costume」 <
+    （21）「counterpart」となります。したがって、最終的な順序は［costume < counterpart］ < 「oven」となります。答えは「costume
+    counterpart oven」'
+  answer: costume counterpart oven
+- input: 以下の単語をアルファベット順に並べ替えなさい：リスト：hypochlorite、ponderosa、phone、credulity
+  target: '順を追って考える。最初の文字：「hypochlorite」は「h」（8番目）、「ponderosa」は「p」（16番目）、「phone」は「p」（16番目）、「credulity」は「c」（3番目）です。この時点での順序は：（3）「credulity」
+    < （8）「hypochlorite」 < （16）［ponderosa ?　phone］となります。では、この部分［ponderosa ?　phone］を2番目の文字で並べ替えます。
+
+    2番目の文字：「ponderosa」は「o」（15番目）、「phone」は「h」（8番目）です。この時点での順序は：（8）「phone」 < （15）「ponderosa」となります。したがって、最終的な順序は：「credulity」
+    < 「hypochlorite」 < ［phone < 「ponderosa」］となります。答えは「credulity hypochlorite phone
+    ponderosa」'
+  answer: credulity hypochlorite phone ponderosa
+- input: 以下の単語をアルファベット順に並べ替えなさい：リスト：newt、arson、parthia、seismography、mugho、aspect、census
+  target: '順を追って考える。最初の文字：「newt」は「n」（14番目）、「arson」は「a」（1番目）、「parthia」は「p」（16番目）、「seismography」は「s」（19番目）、「mugho」は「m」（13番目）、「aspect」は「a」（1番目）、「census」は「c」（3番目）です。この時点での順序は：（1）［arson
+    ?　aspect］ < （3）「census」 < （13）「mugho」 < （14）「newt」 < （16）「parthia」 < （19）「seismography」となります。では、この部分［arson
+    ?　aspect］を2番目の文字で並べ替えてみましょう。
+
+    2番目の文字：「arson」は「r」（18番目）、「aspect」は「s」（19番目）です。この時点での順序は：（18）「arson」 < （19）「aspect」となります。したがって、最終的な順序は［arson
+    < 側面］ < 「census」 < 「mugho」 < 「newt」 < 「parthia」 < 「seismography」となります。答えは「arson
+    aspect census mugho newt parthia seismography」'
+  answer: arson aspect census mugho newt parthia seismography

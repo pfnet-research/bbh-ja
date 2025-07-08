@@ -1,0 +1,90 @@
+- input: '以下のドイツ語から英語への翻訳には、特定の誤りが含まれています。その誤りは以下のいずれかのタイプに分類されます： ・固有名詞：名前、地名、場所などの固有名詞が別の固有名詞に変更されている。
+    ・数値表現：序数や基数、日付、単位などが変更されている。 ・修飾語／形容詞：名詞を修飾する語句や形容詞が変更されている。 ・否定表現／対義語：否定表現が導入または削除されている、あるいは比較級が対義語に変更されている。
+    ・事実関係：上記のいずれのカテゴリーにも該当しない些細な事実誤認が翻訳に含まれている。 ・内容の脱落：翻訳文から重要な節が削除されている。 該当する誤りを特定してください。
+    原文：In der Liste der Baudenkmale in Lenzen (Elbe) sind alle Baudenkmale der brandenburgischen
+    Stadt Lenzen (Elbe) und ihrer Ortsteile aufgelistet.
+
+    翻訳文：In the list of architectural monuments in Lenzen all architectural monuments
+    of the Brandenburg city of Lenzen and its districts are listed.
+
+    この翻訳には以下のいずれかのタイプに該当する誤りが含まれています：
+
+    選択肢:
+
+    (A) 修飾語／形容詞
+
+    (B) 数値表現
+
+    (C) 否定表現／対義語
+
+    (D) 固有名詞
+
+    (E) 内容の脱落
+
+    (F) 事実関係'
+  target: 順を追って考える。この問題を解くには、まず原文を英語に翻訳し、その後自分の翻訳と与えられた翻訳を比較します。Google翻訳によれば、ドイツ語原文の正しい英語訳は「The
+    list of monuments in Lenzen (Elbe) includes all the monuments in the Brandenburg
+    town of Lenzen (Elbe) and its districts.」となります。一方、与えられた翻訳文は「In the list of architectural
+    monuments in Lenzen all architectural monuments of the Brandenburg city of Lenzen
+    and its districts are listed.」となっています。注目すべきは、原文の「Lenzen (Elbe)」が翻訳文では「Lenzen」に変更されている点です。これは固有名詞の誤りです。原文の固有名詞が翻訳文で別の固有名詞に変更されているため、この翻訳には固有名詞に関する誤りが含まれています。答えは(D)
+  answer: (D)
+- input: '以下のドイツ語から英語への翻訳には、特定の誤りが含まれています。その誤りは以下のいずれかのタイプに分類されます： ・固有名詞：名前、地名、場所などの固有名詞が別の固有名詞に変更されている。
+    ・数値表現：序数や基数、日付、単位などが変更されている。 ・修飾語／形容詞：名詞を修飾する語句や形容詞が変更されている。 ・否定表現／対義語：否定表現が導入または削除されている、あるいは比較級が対義語に変更されている。
+    ・事実関係：上記のいずれのカテゴリーにも該当しない些細な事実誤認が翻訳に含まれている。 ・内容の脱落：翻訳文から重要な節が削除されている。 該当する誤りを特定してください。
+    原文：Auf dieser Seite sind die Baudenkmäler der oberbayerischen Großen Kreisstadt
+    Landsberg am Lech zusammengestellt.
+
+    翻訳文：On this page are compiled the architectural monuments of the town of Landsberg
+    am Lech.
+
+    The translation contains an error pertaining to
+
+    選択肢:
+
+    (A) 修飾語／形容詞
+
+    (B) 数値表現
+
+    (C) 否定表現／対義語
+
+    (D) 固有名詞
+
+    (E) 内容の脱落
+
+    (F) 事実関係'
+  target: 順を追って考える。この問題を解くには、まず原文を英語に翻訳し、その後自分の翻訳と与えられた翻訳を比較します。Google翻訳によれば、ドイツ語原文の正しい英語訳は「The
+    monuments of the Upper Bavarian district town of Landsberg am Lech are compiled
+    on this page.」となります。一方、与えられた翻訳文は「On this page are compiled the architectural monuments
+    of the town of Landsberg am Lech.」です。注目すべきは、原文の「Landsberg am Lech」が「Upper Bavarian
+    district town」という重要な地理的情報が翻訳文で省略されている点です。翻訳文から重要な節が削除されているため、この翻訳には内容の脱落に関する誤りが含まれています。答えは(E)
+  answer: (E)
+- input: '以下のドイツ語から英語への翻訳には、特定の誤りが含まれています。その誤りは以下のいずれかのタイプに分類されます： ・固有名詞：名前、地名、場所などの固有名詞が別の固有名詞に変更されている。
+    ・数値表現：序数や基数、日付、単位などが変更されている。 ・修飾語／形容詞：名詞を修飾する語句や形容詞が変更されている。 ・否定表現／対義語：否定表現が導入または削除されている、あるいは比較級が対義語に変更されている。
+    ・事実関係：上記のいずれのカテゴリーにも該当しない些細な事実誤認が翻訳に含まれている。 ・内容の脱落：翻訳文から重要な節が削除されている。 該当する誤りを特定してください。
+    原文：Łeba ist eine Kleinstadt und ein Badeort im Powiat Lęborski der polnischen
+    Woiwodschaft Pommern.
+
+    翻訳文：Eba is not a small town and seaside resort in the Powiat Léborski county of
+    the Pomeranian Voivodeship of Poland.
+
+    この翻訳には以下のいずれかのタイプに該当する誤りが含まれています：
+
+    選択肢:
+
+    (A) 修飾語／形容詞
+
+    (B) 数値表現
+
+    (C) 否定表現／対義語
+
+    (D) 固有名詞
+
+    (E) 内容の脱落
+
+    (F) 事実関係'
+  target: 順を追って考える。この問題を解くには、まず原文を英語に翻訳し、その後自分の翻訳と与えられた翻訳を比較します。Google翻訳によれば、ドイツ語原文の正しい英語訳は「Łeba
+    is a small town and seaside resort in the Powiat Lęborski of the Polish Pomeranian
+    Voivodeship.」となります。一方、与えられた翻訳文は「Łeba is not a small town and seaside resort in
+    the Powiat Léborski county of the Pomeranian Voivodeship of Poland.」となっています。注目すべきは、与えられた文が「Łeba
+    is not a small town...」と否定形になっている点です。本来の翻訳文は「Łeba is a small town...」となるべきでした。文頭に否定表現が導入されたことで、原文の意味が根本的に変わってしまっているため、この翻訳には否定表現／対義語に関する誤りが含まれています。答えは(C)
+  answer: (C)

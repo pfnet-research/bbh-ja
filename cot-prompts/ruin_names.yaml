@@ -1,0 +1,74 @@
+- input: '以下の選択肢の中で、このアーティスト名または映画タイトル「whitesnake」をユーモラスに改変したものはどれか：
+
+    選択肢:
+
+    (A) whitesnape
+
+    (B) whitesnapke
+
+    (C) whitesnuake
+
+    (D) mwhitesnake'
+  target: '順を追って考える。元の名称は「whitesnake」である。これはイギリスの老舗ハードロックバンドの名前だ。これは「white（白）」と「snake（蛇）」の2語を組み合わせた合成語である。
+
+    （A）「whitesnape」：「white」と「snake」を組み合わせたもので、「snake」が「snape」に改変されている。「snape」は『ハリー・ポッター』シリーズに登場する架空のキャラクター、セブルス・スネイプを指しているため、これは確かに意味がありユーモラスな改変である。
+
+    （B）「whitesnapke」：「white」と「snapke」を組み合わせたものだが、「snapke」という単語は実在しないため、「whitesnapke」はユーモラスとは言えない。
+
+    （C）「whitesnuake」：「white」と「snuake」を組み合わせたものだが、「snuake」という単語は実在しないため、「whitesnuake」はユーモラスではない。
+
+    （D）「mwhitesnake」：「m」「white」「snake」を組み合わせたものだが、接頭辞「-m」は恣意的に見えるため、「mwhitesnake」は意味もユーモアも持たない。
+
+    上記の選択肢の中で、ユーモラスな改変となっているのは（A）のみである。答えは(A)'
+  answer: (A)
+- input: '以下の選択肢の中で、このアーティスト名または映画タイトル「one of our dinosaurs is missing」をユーモラスに改変したものはどれか：
+
+    選択肢:
+
+    (A) ofne of our dinosaurs is missing
+
+    (B) one af our dinosaurs is missing
+
+    (C) one of our dinosaurs is pissing
+
+    (D) one of our dinosaur is missing'
+  target: '順を追って考える。元の名称は「one of our dinosaurs is missing」である。これはイギリスの古い映画のタイトルである。
+
+    （A）「ofne of our dinosaurs is missing」：ここでは「one of」が「ofne」に改変されているが、「ofne」という単語は実在しない。
+
+    （B）「one af our dinosaurs is missing」：ここでは「of」が「af」に改変されているが、「af」という単語は実在しない。
+
+    （C）「one of our dinosaurs is pissing」：ここでは「missing」が「pissing」に改変されており、「one of our
+    dinosaurs is pissing」は非常に風変わりでいたずら心のある改変となっている。この改変は映画の本来のタイトルを本当に台無しにしている。
+
+    （D）「one of our dinosaur is missing」：ここでは「dinosaurs」が「dinosaur」に改変されているが、「dinosaur」は単数形であり、タイトルとしては複数形であるべきであるため、この改変は恣意的でユーモラスとは言えない。
+
+    上記の選択肢の中で、ユーモラスな改変となっているのは（C）のみである。
+
+    上記の選択肢の中で、ユーモラスな改変となっているのは（C）のみである。答えは(C)'
+  answer: (C)
+- input: '以下の選択肢の中で、このアーティスト名または映画タイトル「counting crows」をユーモラスに改変したものはどれか：
+
+    選択肢:
+
+    (A) countingy crows
+
+    (B) counting cows
+
+    (C) courting crows
+
+    (D) coutnting crows'
+  target: '順を追って考える。元の名称は「counting crows」である。これはアメリカのロックバンドの名前だ。歴史的に、このバンド名はイギリスの童謡『One
+    for Sorrow』（カササギの数を数える話）に由来している。
+
+    （A）「countingy crows」：「counting」が「countingy」に改変されているが、「countingy」という単語は実在しない。
+
+    （B）「counting cows」：「crows」が「cows」に改変されており、これは確かに遊び心があり意味のある改変で、バンドの本来の名称を台無しにしている。
+
+    （C）「courting crows」：「counting」が「courting」に改変されているが、「courting」という単語は実在するものの、「courting
+    crows」は「counting cows」ほどユーモラスな響きではない。
+
+    （D）「coutnting crows」：「counting」が「coutnting」に改変されているが、「coutnting」という単語は実在しない。
+
+    上記の選択肢の中で、ユーモラスな改変となっているのは（B）のみである。答えは(B)'
+  answer: (B)

@@ -1,0 +1,32 @@
+- input: not ( ( not not True ) ) は
+  target: '順を追って考える。まず覚えておくべきことは、括弧内の式は常に最初に評価されるということです（i）。そして、演算の優先順位は最も高いものから「not」、「and」、「or」の順であるということです（ii）。
+
+    この式「Z」を以下のように簡略化します：「Z = not ( ( not not True ) ) = not ( ( A ) )」、ここで「A = not
+    not True」と定義します。
+
+    次にAの値を評価します：A = not not True = not (not True) = not False = True。
+
+    Aの値を代入すると、Z = not ( ( A ) ) = not ( ( True ) ) = not True = Falseとなります。答えは「False」'
+  answer: 'False'
+- input: True and False and not True and True は
+  target: '順を追って考える。まず覚えておくべきことは、括弧内の式は常に最初に評価されるということです（i）。そして、演算の優先順位は最も高いものから「not」、「and」、「or」の順であるということです（ii）。
+
+    この式「Z」を以下のように簡略化します：「Z = True and False and not True and True = A and B」、ここで「A
+    = True and False」、「B = not True and True」と定義します。
+
+    次にAの値を評価します：A = True and False = False。
+
+    次にBの値を評価します：B = not True and True = not (True and True) = not (True) = False。
+
+    AとBの値を代入すると、Z = A and B = False and False = Falseとなる。答えは「False」'
+  answer: 'False'
+- input: not not ( not ( False ) ) は
+  target: '順を追って考える。まず覚えておくべきことは、括弧内の式は常に最初に評価されるということです（i）。そして、演算の優先順位は最も高いものから「not」、「and」、「or」の順であるということです（ii）。
+
+    この式「Z」を以下のように簡略化します：「Z = not not ( not ( False ) ) = not not ( A )」、ここで「A = not
+    ( False )」と定義します。
+
+    次にAの値を評価します：A = not ( False ) = not False = True。
+
+    Aの値を代入すると、Z = not not ( A ) = not not (True) = not not False = Trueとなります。答えは「True」'
+  answer: 'True'
